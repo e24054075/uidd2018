@@ -8,14 +8,14 @@ body{
 }
 #point{
   position:absolute;
-  top:25px;
-  left:715px;
+  top:30px;
+  left:765px;
   color:white;
 }
 #time{
   position:absolute;
-  top:138px;
-  left:715px;
+  top:155px;
+  left:780px;
   color:white;
 }
 #box{
