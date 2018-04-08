@@ -8,18 +8,18 @@ body{
 }
 #point{
   position:absolute;
-  top:20px;
-  left:700px;
+  top:25px;
+  left:715px;
   color:white;
 }
 #time{
   position:absolute;
-  top:136px;
-  left:700px;
+  top:138px;
+  left:715px;
   color:white;
 }
 #box{
   position:absolute;
-  top:136px;
-  left:700px;
+  top:138px;
+  left:715px;
 }
