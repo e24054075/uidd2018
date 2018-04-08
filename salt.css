@@ -9,7 +9,7 @@ body{
 #point{
   position:absolute;
   top:30px;
-  left:750px;
+  left:745px;
   color:white;
 }
 #time{
@@ -77,4 +77,9 @@ img.p6{
   position:absolute;
   top:518px;
   left:668px;
+}
+img.toolbar{
+  position:absolute;
+  top:591px;
+  left:703px;
 }
