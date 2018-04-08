@@ -1,5 +1,6 @@
-.main{
+#main{
   position:absolute;
+  height=95%;
   top:10px;
   left:400px;
 }
@@ -8,4 +9,14 @@ body{
 }
 img.ins{
   height:20%;
+}
+#point{
+  position:absolute;
+  top:20px;
+  left:780px;
+}
+#time{
+  position:absolute;
+  top:60px;
+  left:750px;
 }
