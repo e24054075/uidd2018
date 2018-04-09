@@ -25,5 +25,8 @@ $(document).ready(function(){
     $("#toolbar").click(function(){
         move();
     });
+    $("#toolbar2").click(function(){
+        close();
+    });
     timecount();
 });
