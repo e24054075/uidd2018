@@ -1,6 +1,6 @@
 var point = 0;
 var c_time = 60;
-var poolc = [1,1,1,1,1,1];
+var salt = [1,1,1,1,1,1];
 var tool = 0;
 var temp = 0;
 
@@ -18,16 +18,19 @@ function usetool(i){
 }
 function pool(i,j){
 	$("#p"+i+"s"+j).click(function(){
-		for(var w = 1;w <= 5;w++)
+		if(tool == j)
 		{
-			if(w == j + 1)
-			{	
-				temp = j+1;
-				$("#p"+i+"s"+temp).show();
-			}
-			else
+			for(var w = 1;w <= 5;w++)
 			{
-				$("#p"+i+"s"+w).hide();
+				if(w == j + 1)
+				{	
+					temp = j+1;
+					$("#p"+i+"s"+temp).show();
+				}
+				else
+				{
+					$("#p"+i+"s"+w).hide();
+				}
 			}
 		}
 	});
@@ -37,6 +40,10 @@ function timecount(){
 	timer = setInterval(function(){
 		c_time--;
 		$("#time").text("0:"+c_time);
+		if(c_time==0)
+		{
+			clearInterval(timer);
+		}
 	},1000);
 }
 $(document).ready(function(){
