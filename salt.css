@@ -103,12 +103,12 @@ img.p6{
   top:518px;
   left:668px;
 }
-#toolbar{
-  position:absolute;
-  top:659px;
-  left:750px;
-}
 #toolbar2{
+  position:absolute;
+  bottom:0px;
+  right:0px;
+}
+#toolbar{
   position:absolute;
   top:659px;
   left:750px;
