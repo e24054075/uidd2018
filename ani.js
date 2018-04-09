@@ -15,12 +15,12 @@ $(document).ready(function(){
     if($toolbarc)
     {
         $("#toolbarcircle").animate({height:"0px",width:"0px"});
-        $toobarc = 0;
+        $toolbarc = 0;
     }
     else
     {
         $("#toolbarcircle").animate({height:"472px",width:"472px"});
-        $toobarc = 1;
+        $toolbarc = 1;
     }
     });
     
