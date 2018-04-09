@@ -48,6 +48,31 @@ body{
   top:390px;
   left:5px;
 }
+#ins1{
+  position:absolute;
+  top:120px;
+  left:20px;
+}
+#ins2{
+  position:absolute;
+  top:120px;
+  left:180px;
+}
+#ins3{
+  position:absolute;
+  top:280px;
+  left:10px;
+}
+#ins4{
+  position:absolute;
+  top:290px;
+  left:170px;
+}
+#ins5{
+  position:absolute;
+  top:420px;
+  left:30px;
+}
 img.p1{
   position:absolute;
   top:305px;
