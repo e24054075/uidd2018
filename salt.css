@@ -105,15 +105,15 @@ img.p6{
 }
 #toolbar{
   position:absolute;
-  top:656px;
-  left:746px;
+  top:659px;
+  left:750px;
 }
 #toolbarcircle{
   position:absolute;
   top:259px;
   left:351px;
-  height:472px;
-  width:472px;
+  height:0px;
+  width:0px;
   border-radius:100% 0 0 0;
   background-color:#F6F37D;
 }
