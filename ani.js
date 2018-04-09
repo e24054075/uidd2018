@@ -16,8 +16,19 @@ function usetool(){
 		$("#tool"+i).click(function(){
 			tool=i;
 			close();
+			$("#time").text(tool);
     		});
 	}
+}
+function pool(){
+	for(var i = 1;i<=5;i++)
+	{
+		$("#tool"+i).click(function(){
+			tool=i;
+			close();
+    		});
+	}
+}
 }
 function timecount(){
 	c_time = 60;
@@ -38,5 +49,4 @@ $(document).ready(function(){
         close();
     });
     usetool();
-    timecount();
 });
