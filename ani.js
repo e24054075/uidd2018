@@ -6,8 +6,7 @@ var salt = [false,false,false,false,false,false];
 
 $(document).ready(function(){
 $("#toolbar").click(function(){
-    $("#toolbarcircle").animate({width:"100px",
-  height:"100px",
-  -webkit-border-radius: "100px" "0" "0" "0");
+    $("#toolbarcircle").animate({width:"20%",
+  height:"20%");
   });
 });
