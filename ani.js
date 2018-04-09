@@ -42,7 +42,7 @@ function timecount(){
 $(document).ready(function(){
     for(var i = 1;i<=6;i++)
     {
-	    for(var j = 1:j <= 5;j++)
+	    for(var j = 1;j <= 5;j++)
 		pool(i,j);
     }
     $("#toolbar").click(function(){
