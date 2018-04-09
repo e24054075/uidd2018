@@ -1,6 +1,6 @@
 var point = 0;
 var c_time = 60;
-var salt = [1,1,1,1,1,1];
+var salt = [0,0,0,0,0,0];
 var tool = 0;
 var temp = 0;
 
@@ -30,6 +30,15 @@ function pool(i,j){
 				else
 				{
 					$("#p"+i+"s"+w).hide();
+				}
+			}
+			if(tool == 5)
+			{
+				if(salt[i] != 1)
+				{
+					salt[i] = 1;
+					point+= 1;
+					$("#point").text("Point:"+point);
 				}
 			}
 		}
