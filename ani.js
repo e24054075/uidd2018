@@ -21,14 +21,13 @@ function usetool(){
 	}
 }
 function pool(){
-	for(var i = 1;i<=5;i++)
+	for(var i = 1;i<=6;i++)
 	{
-		$("#tool"+i).click(function(){
+		$("#p"+i).click(function(){
 			tool=i;
 			close();
     		});
 	}
-}
 }
 function timecount(){
 	c_time = 60;
@@ -49,4 +48,5 @@ $(document).ready(function(){
         close();
     });
     usetool();
+    timecount();
 });
