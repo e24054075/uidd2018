@@ -45,11 +45,14 @@ function pool(i,j){
 	});
 }
 function result(){
-	$("#result").hide();
 	if(c_time==0 || point == 6)
 	{
 		$("#result").show();
 		$("#r_point").text("遊戲結束! 得分:"+point);
+	}
+	else
+	{
+		$("#result").hide();
 	}
 }
 function timecount(){
