@@ -83,3 +83,40 @@ img.p6{
   top:592px;
   left:704px;
 }
+#circle{
+  position:absolute;
+  top:592px;
+  left:704px;
+  border-radius: 300px 0 0 0;
+  color:#F6F37D;
+}
+#tool1{
+  position:absolute;
+  top:592px;
+  left:704px;
+}
+#tool2{
+  position:absolute;
+  top:592px;
+  left:704px;
+}
+#tool3{
+  position:absolute;
+  top:592px;
+  left:704px;
+}
+#tool4{
+  position:absolute;
+  top:592px;
+  left:704px;
+}
+#tool5{
+  position:absolute;
+  top:592px;
+  left:704px;
+}
+#tool6{
+  position:absolute;
+  top:592px;
+  left:704px;
+}
