@@ -44,6 +44,14 @@ function pool(i,j){
 		}
 	});
 }
+function result(){
+	$("#result").hide();
+	if(c_time==0 || point == 6)
+	{
+		$("#result").show();
+		$("#r_point").text("遊戲結束! 得分:"+point);
+	}
+}
 function timecount(){
 	timer = setInterval(function(){
 		c_time--;
@@ -67,6 +75,7 @@ $(document).ready(function(){
         close();
     });
     timecount();
+    result();
     for(var i = 1;i<=5;i++)
 	usetool(i);
 });
