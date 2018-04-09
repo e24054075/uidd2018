@@ -3,6 +3,8 @@ var c_time = 40;
 var salt = [0,0,0,0,0,0];
 var tool = 0;
 var temp = 0;
+var end = 0;
+
 
 function move(){
     $("#toolbarcircle").animate({height:"472px",width:"472px"});
@@ -49,8 +51,9 @@ function result(){
 	{
 		$("#result").show();
 		$("#r_point").text("遊戲結束! 得分:"+point);
+		end = 1;
 	}
-	else
+	if(end == 0)
 	{
 		$("#result").hide();
 	}
