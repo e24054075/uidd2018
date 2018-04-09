@@ -1,5 +1,5 @@
 var point = 0;
-var c_time = 60;
+var c_time = 40;
 var salt = [0,0,0,0,0,0];
 var tool = 0;
 var temp = 0;
@@ -45,7 +45,6 @@ function pool(i,j){
 	});
 }
 function timecount(){
-	c_time = 60;
 	timer = setInterval(function(){
 		c_time--;
 		$("#time").text("0:"+c_time);
