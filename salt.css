@@ -85,10 +85,6 @@ img.p6{
 }
 #toolbarcircle {
   position:absolute;
-  top:673px;
-  left:765px;
-  width: 58px;
-  height: 58px;
-  background-color: #f9f37e;
-  -webkit-border-radius: 58px 0 0 0;
+  top:592px;
+  left:704px;
 }
