@@ -1,6 +1,6 @@
 var point = 0;
 var c_time = 60;
-var clickt = [0,0,0,0,0,0];
+var poolc = [1,1,1,1,1,1];
 var salt = [false,false,false,false,false,false];
 var tool = 0;
 
@@ -10,16 +10,14 @@ function move(){
 function close(){
     $("#toolbarcircle").animate({height:"0px",width:"0px"});
 }
-function usetool(){
-        for(var i = 1;i<=5;i++)
-	{
-		$("#tool"+i).click(function(){
-			tool=i;
-			close();
-			$("#time").text(tool);
-    		});
-	}
+function usetool(i){
+	$("#tool"+i).click(function(){
+		tool=i;
+		close();
+		$("#time").text(tool);
+    	});
 }
+
 function timecount(){
 	c_time = 60;
 	timer = setInterval(function(){
@@ -38,5 +36,6 @@ $(document).ready(function(){
     $("#toolbar2").click(function(){
         close();
     });
-    usetool();
+    for(var i = 1;i<=5;i++)
+	usetool(i);
 });
