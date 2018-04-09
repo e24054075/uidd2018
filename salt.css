@@ -80,15 +80,15 @@ img.p6{
 }
 #toolbar{
   position:absolute;
-  top:590px;
-  left:700px;
+  top:592px;
+  left:704px;
 }
 #toolbarcircle {
   position:absolute;
-  top:591px;
-  left:703px;
-  width: 50px;
-  height: 50px;
+  top:673px;
+  left:765px;
+  width: 58px;
+  height: 58px;
   background-color: #f9f37e;
-  -webkit-border-radius: 50px 0 0 0;
+  -webkit-border-radius: 58px 0 0 0;
 }
