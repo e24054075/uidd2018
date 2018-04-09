@@ -110,8 +110,8 @@ img.p6{
 }
 #toolbarcircle{
   position:absolute;
-  top:259px;
-  left:351px;
+  bottom:28px;
+  right:713px;
   height:0px;
   width:0px;
   border-radius:100% 0 0 0;
