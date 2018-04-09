@@ -14,12 +14,12 @@ $(document).ready(function(){
     $("#toolbar").click(function(){
     if($toolbarc)
     {
-        move();
+        $("#toolbarcircle").animate({height:"472px",width:"472px"});
         $toobarc = 1;
     }
     else
     {
-        close();
+        $("#toolbarcircle").animate({height:"0px",width:"0px"});
         $toobarc = 0;
     }
     });
