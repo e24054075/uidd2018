@@ -20,15 +20,6 @@ function usetool(){
     		});
 	}
 }
-function pool(){
-	for(var i = 1;i<=6;i++)
-	{
-		$("#p"+i).click(function(){
-			tool=i;
-			close();
-    		});
-	}
-}
 function timecount(){
 	c_time = 60;
 	timer = setInterval(function(){
@@ -48,5 +39,4 @@ $(document).ready(function(){
         close();
     });
     usetool();
-    timecount();
 });
