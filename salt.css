@@ -80,43 +80,45 @@ img.p6{
 }
 #toolbar{
   position:absolute;
-  top:592px;
-  left:704px;
+  top:656px;
+  left:746px;
 }
-#circle{
+#toolbarcircle{
   position:absolute;
-  top:592px;
-  left:704px;
-  border-radius: 300px 0 0 0;
-  color:#F6F37D;
+  top:259px;
+  left:351px;
+  height:472px;
+  width:472px;
+  border-radius:100% 0 0 0;
+  background-color:#F6F37D;
 }
 #tool1{
   position:absolute;
-  top:592px;
-  left:704px;
+  top:270px;
+  left:50px;
+  height:40%;
 }
 #tool2{
   position:absolute;
-  top:592px;
-  left:704px;
+  top:270px;
+  left:220px;
+  height:40%;
 }
 #tool3{
   position:absolute;
-  top:592px;
-  left:704px;
+  top:100px;
+  left:120px;
+  height:35%;
 }
 #tool4{
   position:absolute;
-  top:592px;
-  left:704px;
+  top:20px;
+  left:270px;
+  height:32%;
 }
 #tool5{
   position:absolute;
-  top:592px;
-  left:704px;
-}
-#tool6{
-  position:absolute;
-  top:592px;
-  left:704px;
+  top:200px;
+  left:340px;
+  height:40%;
 }
